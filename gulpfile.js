@@ -50,7 +50,7 @@ var config = {
 /**
  * Html
  */
-gulp.task('html', function(){
+gulp.task('html:reload', function(){
     gulp.src(config.paths.app+'/**/*.html')
     .pipe(reload({stream:true}));
 });
@@ -193,7 +193,7 @@ gulp.task('browser-sync', function(){
  * WATCHER
  */
 gulp.task('watch', function(){
-    gulp.watch(config.paths.app+'/**/*.html', ['html']);
+    gulp.watch(config.paths.app+'/**/*.html', ['html:reload']);
     gulp.watch(config.paths.srcScripts+'/**/*.js', ['js:compile']);
     gulp.watch(config.paths.srcStyles+'/**/*.scss', ['sass:compile']);
     gulp.watch(config.paths.srcImages+'/**/*', ['images:optimise']);

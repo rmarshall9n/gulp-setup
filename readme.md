@@ -1,3 +1,22 @@
+# Usage
+
+* build:all
+* build:serve
+* build:clean
+* build:clear-cache
+
+* browser-sync
+* watch
+* default
+
+* js:compile
+* js:copy-bower
+* sass:lint
+* sass:compile
+* html:reload
+* images:optimise
+* fonts:copy
+
 # Plugins
 ## General
 gulp
@@ -7,11 +26,11 @@ gulp-cache
 gulp-sourcemaps
 run-sequence
 del
-gulp-useref
+* gulp-useref
 
 ## js
 gulp-uglify
-main-bower-files
+* main-bower-files
 
 ## scss
 gulp-sass
@@ -19,13 +38,13 @@ gulp-sass-lint
 gulp-postcss
 cssnano
 autoprefixer
-css-mqpacker
+* css-mqpacker
 
 ## images
-gulp-imagemin
+* gulp-imagemin
 
 ## browser sync
-browser-sync
+* browser-sync
 
 
 
