@@ -6,3 +6,9 @@ bower_components/
 *.css.map
 build/
 dist/
+
+
+app/css/*
+app/js/*
+app/images/*
+app/fonts/*
