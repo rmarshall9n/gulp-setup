@@ -4,11 +4,9 @@
 * build:serve
 * build:clean
 * build:clear-cache
-
 * browser-sync
 * watch
 * default
-
 * js:compile
 * js:copy-bower
 * sass:lint
@@ -19,25 +17,25 @@
 
 # Plugins
 ## General
-gulp
-gulp-plumber
-gulp-rename
-gulp-cache
-gulp-sourcemaps
-run-sequence
-del
+* gulp
+* gulp-plumber
+* gulp-rename
+* gulp-cache
+* gulp-sourcemaps
+* run-sequence
+* del
 * gulp-useref
 
 ## js
-gulp-uglify
+* gulp-uglify
 * main-bower-files
 
 ## scss
-gulp-sass
-gulp-sass-lint
-gulp-postcss
-cssnano
-autoprefixer
+* gulp-sass
+* gulp-sass-lint
+* gulp-postcss
+* cssnano
+* autoprefixer
 * css-mqpacker
 
 ## images
